@@ -1,0 +1,98 @@
+.feature-camera{
+    margin-top: 100px;
+    background-color: #f7f7f7;
+    padding: 50px 0;
+}
+.position-feature{
+    position: relative;
+}
+.custom-shape{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    right: -200px;
+    top: -30px;
+    background-color: #5967b8;
+    border-radius: 100px ;
+    box-shadow: 0 0 10px black;
+}
+.info-feature{
+    margin-top: 50px;
+}
+.col-feature-one {
+    display: flex;
+    margin-bottom: 20px;
+}
+.col-feature-two {
+    display: flex;
+}
+.box-feature{
+    width: 33%;
+    border: 1px solid lightgray;
+}
+.feature-info-content {
+    text-align: center;
+    padding: 30px 30px;
+    background-color: white;
+}
+.margin-feature {
+    margin: 0 20px;
+}
+.feature-info-content i {
+    color: #e65744;
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+.feature-info-content h4 {
+    font-size: 25px;
+}
+.feature-info-content p {
+    line-height: 1.7;
+    margin-bottom: 0;
+}
+
+/* procedure */
+
+.procedure {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.row-procedure {
+    margin-top: 50px;
+    display: flex;
+}
+.col-procedure {
+    width: 25%;
+    text-align: center;
+    padding: 0 50px;
+}
+.title-procedure{
+    display: flex;
+    flex-direction: column;
+}
+.title-procedure i {
+    color: #e65744;
+    font-size: 45px;
+}
+.title-procedure span {
+    margin: 30px auto ;
+    position: relative;
+    width: 25px;
+    height: 25px;
+    line-height: 27px;
+    color: white;
+    border-radius: 50%;
+    background-color: #e45f4d;
+}
+.title-procedure span::before {
+    content: "";
+    position: absolute;
+    height: 70px;
+    border-left: 1px solid gray;
+    top: -21px;
+    left: 13px;
+    z-index: -1;
+}
+.title-procedure h4 {
+    font-size: 20px;
+}
